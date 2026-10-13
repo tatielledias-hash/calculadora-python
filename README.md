@@ -1,18 +1,37 @@
 # ✿ Calculadora em Python ✿
 
-Uma calculadora de desktop feita com Python e CustomTkinter, com visual em tons suaves e opção de tema claro ou escuro.
+Uma calculadora para computador feita com Python e CustomTkinter. Ela tem cores suaves, botões arredondados e temas claro e escuro.
 
 ## Funcionalidades
 
-- Adição, subtração, multiplicação e divisão
+- Soma, subtração, multiplicação e divisão
 - Números decimais e parênteses
 - Uso pelos botões ou pelo teclado
-- Botão para apagar e botão para limpar
-- Temas claro e escuro
+- Botões para apagar e limpar a conta
+- Alternância entre tema claro e escuro
+
+## Requisitos
+
+- Python instalado
+- Biblioteca CustomTkinter
+
+## Instalação
+
+No terminal, instale o CustomTkinter com:
+
+`py -m pip install customtkinter`
 
 ## Como executar
 
-É necessário ter o Python instalado. No terminal, instale o CustomTkinter:
+Na pasta principal do repositório, abra o terminal e execute a versão com janela:
 
-```powershell
-py -m pip install customtkinter
+`py Calculadora\calculadora_janela.py`
+
+Para executar a versão simples no terminal:
+
+`py Calculadora\calculadora.py`
+
+## Tecnologias
+
+- Python
+- CustomTkinter
